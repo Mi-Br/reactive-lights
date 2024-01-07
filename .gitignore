@@ -1,0 +1,26 @@
+# Dependency directories
+node_modules/
+
+# Production build folder
+/build
+
+# Debug log from npm
+npm-debug.log*
+
+# Environment variables
+.env
+
+# IDEs and editors
+/.idea
+*.swp
+*.swo
+.vscode/
+
+# Optional npm cache & log
+.npm/
+.npmrc
+yarn-error.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
