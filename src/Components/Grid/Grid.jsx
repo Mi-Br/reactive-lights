@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Light from "../Light/Light";
 function Grid({ rows, columns }) {
+	console.log("grid renders");
 	return (
 		<StyledGrid style={{ "--columns": columns, "--rows": rows }}>
 			{Array(rows * columns)
